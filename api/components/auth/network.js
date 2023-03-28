@@ -14,3 +14,5 @@ router.post('/login', function(req, res){
             response.error(req, res, 'Información inválida', 400);
         })
 });
+
+module.exports = router;
